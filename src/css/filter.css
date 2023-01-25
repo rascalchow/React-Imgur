@@ -1,0 +1,34 @@
+.filter__wrapper {
+  position: fixed;
+  top: 0;
+  padding: 20px 0;
+  z-index: 2;
+  background: #34373c;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  background: url(../img/ImgurLogo.svg) center center no-repeat;
+  width: 87px;
+  height: 34px;
+  margin: 0 50px;
+  background-size: contain;
+}
+
+.filter {
+  display: flex;
+  flex-flow: row nowrap;
+  color: #fff;
+  margin: 0 100px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.filter__section:not(:last-child) {
+}
+
+.filter__section label {
+  margin-right: 10px;
+}
