@@ -1,6 +1,7 @@
 {
   "name": "react-imgur",
   "version": "0.1.0",
+  "author": "Vasyl Chow",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
